@@ -9,6 +9,20 @@ This is Spring application that let’s you create and retrieve Person objects s
 
 
 INSTALL AND LAUNCH MongoDB
+To start mongod:
+
+ sudo service mongodb start
+
+To stop mongod:
+
+ sudo service mongodb stop
+
+If you use the service command to start and stop, it should be using the configuration file: /etc/mongodb.conf.
+Starting mongod from the command line
+
+If you run mongod directly instead of using the service definition, you will also have to specify a configuration file as a command line parameter if you want one to be used:
+
+mongod --config /etc/mongodb.conf
 
 For this guide to work, you must stand up a local MongoDB server.
 Installation options could be found at http://docs.mongodb.org/manual/installation/.
