@@ -12,11 +12,11 @@ INSTALL AND LAUNCH MongoDB
 
 To start mongod:
 
- sudo service mongodb start
+ sudo service mongod start
 
 To stop mongod:
 
- sudo service mongodb stop
+ sudo service mongod stop
 
 If you use the service command to start and stop, it should be using the configuration file: /etc/mongodb.conf.
 Starting mongod from the command line
